@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4lqs1q5fgrti"
-path="res://.godot/imported/Blue.png-99b845350a8b7cb68c6cc5bba6d44eeb.ctex"
+path="res://.godot/imported/TestSilhouette.png-2b36d5ca2c5672adfdbabee75b42cf74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Blue.png"
-dest_files=["res://.godot/imported/Blue.png-99b845350a8b7cb68c6cc5bba6d44eeb.ctex"]
+source_file="res://Art Assets/Test Assets/TestSilhouette.png"
+dest_files=["res://.godot/imported/TestSilhouette.png-2b36d5ca2c5672adfdbabee75b42cf74.ctex"]
 
 [params]
 

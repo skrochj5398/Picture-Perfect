@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tb4q7fl5vo4k"
-path="res://.godot/imported/white_box_Main.png-4e9398307401dacc2bb1a42475e40ff2.ctex"
+uid="uid://cohtm1dcetqch"
+path="res://.godot/imported/TestSticker.jpg-daebf1f3009e4c95b9c004a66670729b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://white_box_Main.png"
-dest_files=["res://.godot/imported/white_box_Main.png-4e9398307401dacc2bb1a42475e40ff2.ctex"]
+source_file="res://Art Assets/Test Assets/TestSticker.jpg"
+dest_files=["res://.godot/imported/TestSticker.jpg-daebf1f3009e4c95b9c004a66670729b.ctex"]
 
 [params]
 

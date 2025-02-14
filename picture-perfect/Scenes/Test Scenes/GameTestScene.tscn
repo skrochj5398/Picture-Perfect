@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=3 uid="uid://c53xxclpe0qvd"]
 
-[ext_resource type="Texture2D" uid="uid://tb4q7fl5vo4k" path="res://white_box_Main.png" id="1_fsybg"]
-[ext_resource type="Texture2D" uid="uid://c4lqs1q5fgrti" path="res://Blue.png" id="2_ourun"]
-[ext_resource type="Texture2D" uid="uid://cohtm1dcetqch" path="res://red-box-background.jpg" id="3_p64jn"]
-[ext_resource type="Script" path="res://Sticker.gd" id="4_h0sce"]
+[ext_resource type="Texture2D" uid="uid://tb4q7fl5vo4k" path="res://Art Assets/Test Assets/TestBackground.png" id="1_lq4p0"]
+[ext_resource type="Texture2D" uid="uid://c4lqs1q5fgrti" path="res://Art Assets/Test Assets/TestSilhouette.png" id="2_rg3lu"]
+[ext_resource type="Texture2D" uid="uid://cohtm1dcetqch" path="res://Art Assets/Test Assets/TestSticker.jpg" id="3_2b13e"]
+[ext_resource type="Script" path="res://Scripts/TestScripts/TestSticker.gd" id="4_gl7xj"]
 
 [sub_resource type="Animation" id="Animation_l48lo"]
 length = 0.001
@@ -49,18 +49,18 @@ position = Vector2(576, 324)
 
 [node name="Painting" type="Sprite2D" parent="Camera2D"]
 scale = Vector2(4.70553, 3.11962)
-texture = ExtResource("1_fsybg")
+texture = ExtResource("1_lq4p0")
 
 [node name="Silhouette" type="Sprite2D" parent="Camera2D"]
 position = Vector2(275, 28)
 scale = Vector2(0.597414, 0.808824)
-texture = ExtResource("2_ourun")
+texture = ExtResource("2_rg3lu")
 
 [node name="Sticker" type="Sprite2D" parent="Camera2D"]
 position = Vector2(-336, -120)
 scale = Vector2(0.291682, 0.522523)
-texture = ExtResource("3_p64jn")
-script = ExtResource("4_h0sce")
+texture = ExtResource("3_2b13e")
+script = ExtResource("4_gl7xj")
 
 [node name="StickerAnimationPlayer" type="AnimationPlayer" parent="Camera2D/Sticker"]
 libraries = {
